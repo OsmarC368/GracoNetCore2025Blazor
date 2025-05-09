@@ -593,6 +593,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
       }
     }
   },
@@ -1570,11 +1580,17 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Blazored.SessionStorage >= 2.4.0",
+      "Core >= 1.0.0",
       "Microsoft.AspNetCore.Components.Web >= 8.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.0",
       "Newtonsoft.Json >= 13.0.3",
@@ -1582,23 +1598,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Guillermo\\.nuget\\packages\\": {},
+    "C:\\Users\\WTS\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
+      "projectUniqueName": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\BlazorApp1.csproj",
       "projectName": "BlazorApp1",
-      "projectPath": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
-      "packagesPath": "C:\\Users\\Guillermo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\obj\\",
+      "projectPath": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\BlazorApp1.csproj",
+      "packagesPath": "C:\\Users\\WTS\\.nuget\\packages\\",
+      "outputPath": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Guillermo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\WTS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1607,13 +1623,16 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\Core\\Core.csproj": {
+              "projectPath": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\Core\\Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1625,8 +1644,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -1672,7 +1690,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

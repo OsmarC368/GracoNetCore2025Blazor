@@ -1,0 +1,31 @@
+@page "/user/Register"
+@using Core.Entities
+@rendermode InteractiveServer
+@using System.ComponentModel.DataAnnotations
+@using System.
+
+
+<h3>Registrar</h3>
+
+<Editform  Model="@user">
+    <DataAnnotationsValidator/>
+    <div class="form-group">
+        <label for="id">Username</label>
+        <InputText class="form-control" type="text" id="id" placeholder="111" @bind-value="user.UserName" />
+        <ValidationMessage For="() => user.UserName" />
+    </div>
+    <div class="form-group">
+        <label for="nombre">Password</label>
+        <InputText class="form-control" type="text" id="nombre" placeholder="nombre" @bind-value="user.Password" />
+        <ValidationMessage For="() => user.Password" />
+    </div>
+</Editform>
+<br>
+<div class="btn-group" role="group" aria-label="Basic example">
+    <button class="btn btn-secondary" >Registrarse</button>
+    <button class="btn btn-secondary" >Limpiar</button>
+</div>
+<br>
+@* <div class="@claseMensaje" role="alert">
+    <h4>@mensaje</h4>
+</div> *@
