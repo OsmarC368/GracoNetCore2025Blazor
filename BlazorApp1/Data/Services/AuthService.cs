@@ -44,7 +44,7 @@ namespace BlazorApp1.Data.Services
             }
             catch (Exception ex)
             {
-                
+                response.Message = ex.Message;
             }
             return response;
         }

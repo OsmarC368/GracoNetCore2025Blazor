@@ -10,11 +10,11 @@ namespace BlazorApp1.Data.Models
     {
         
         [Required(ErrorMessage = "El Usuario es Requerido!")]
-        [StringLength(4, ErrorMessage = "El Nombre de Usuario es Demasiado Corto", MinimumLength =4)]
+        [StringLength(20, ErrorMessage = "El Nombre de Usuario es Demasiado Corto", MinimumLength =4)]
         public string UserName {get; set;} = string.Empty;
 
         [Required(ErrorMessage = "El Usuario es Requerido!")]
-        [StringLength(4, ErrorMessage = "La Contraseña de Usuario es Demasiado Corto", MinimumLength=4)]
+        [StringLength(20, ErrorMessage = "La Contraseña de Usuario es Demasiado Corto", MinimumLength=4)]
         public string Password {get; set;} = string.Empty;
     }
 }

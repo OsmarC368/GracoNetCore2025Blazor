@@ -18,10 +18,11 @@ namespace BlazorApp1.Components.Pages.RegisterUser
         public async void Register()
         {
             var response = await service.Register(user);
+            Console.WriteLine("Entro");
 
             if(response.Ok)
             {
-                mensaje = response.Message;
+                mensaje = "Usuario Registrado con Exito";
                 claseMensaje = "alert alert-success";
             }
             else
@@ -29,6 +30,8 @@ namespace BlazorApp1.Components.Pages.RegisterUser
                 mensaje = response.Message;
                 claseMensaje = "alert alert-danger";
             }
+            Clear();
+            StateHasChanged();
 
         }
 

@@ -41,7 +41,7 @@ namespace BlazorApp1.Data
         public static async Task<Response<R>> Execute<R,T>(string endpoint, methodHttp methodHttp, T Data, string? token = null)
         {
             //string urlBaseApi = "http://gracosoftnet2025.runasp.net/api/";
-            string urlBaseApi = "https://localhost:7215/api/";
+            string urlBaseApi = "http://localhost:5025/api/";
         
             Response<R> response = new();
             try
@@ -103,7 +103,7 @@ namespace BlazorApp1.Data
         public static async Task<Response<T>> Execute<T>(string endpoint, methodHttp methodHttp, T Data, string? token = null)
         {
             //string urlBaseApi = "http://gracosoftnet2025.runasp.net/api/";
-            string urlBaseApi = "https://localhost:7215/api/";
+            string urlBaseApi = "http://localhost:5025/api/";
             Response<T> response = new();
             try
             {
