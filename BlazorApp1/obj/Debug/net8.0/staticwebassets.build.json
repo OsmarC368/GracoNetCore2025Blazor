@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+De/wmFZEGiegl3f2Pih+rERhPm/1tKSAgodGwsT/Kw=",
+  "Hash": "c8c3f4ZwFyUFtCDyT0qEyfcaS52X187r4/kd2cTxfv8=",
   "Source": "BlazorApp1",
   "BasePath": "_content/BlazorApp1",
   "Mode": "Default",
@@ -10,19 +10,19 @@
     {
       "Name": "BlazorApp1\\wwwroot",
       "Source": "BlazorApp1",
-      "ContentRoot": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\wwwroot\\",
       "BasePath": "_content/BlazorApp1",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorApp1.styles.css",
+      "Identity": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorApp1.styles.css",
       "SourceId": "BlazorApp1",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorApp1",
-      "RelativePath": "BlazorApp1#[.{fingerprint}]?.styles.css",
+      "RelativePath": "BlazorApp1.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -31,19 +31,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "8fcq6ov3nz",
-      "Integrity": "nGjTs4d+IbGKU8157TJdTxdbCYQg+m2K/JhloThq7GI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorApp1.styles.css"
+      "OriginalItemSpec": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorApp1.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp1.bundle.scp.css",
+      "Identity": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp1.bundle.scp.css",
       "SourceId": "BlazorApp1",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorApp1",
-      "RelativePath": "BlazorApp1#[.{fingerprint}]!.bundle.scp.css",
+      "RelativePath": "BlazorApp1.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -52,589 +50,85 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "8fcq6ov3nz",
-      "Integrity": "nGjTs4d+IbGKU8157TJdTxdbCYQg+m2K/JhloThq7GI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp1.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp1.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\app.css",
+      "Identity": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\wwwroot\\app.css",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\wwwroot\\",
       "BasePath": "_content/BlazorApp1",
-      "RelativePath": "app#[.{fingerprint}]?.css",
+      "RelativePath": "app.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "13i2qwpw2a",
-      "Integrity": "881EQc1i1I+uNQyIhz3pf5cfMcO/usFQLNn3kItW7/k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\wwwroot\\",
       "BasePath": "_content/BlazorApp1",
-      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bpk8xqwxhs",
-      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\wwwroot\\",
       "BasePath": "_content/BlazorApp1",
-      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8inm30yfxf",
-      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\favicon.png",
+      "Identity": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\wwwroot\\favicon.png",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "D:\\Documents\\Desktop\\GracoNetCore2025Blazor\\BlazorApp1\\wwwroot\\",
       "BasePath": "_content/BlazorApp1",
-      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "RelativePath": "favicon.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ifv42okdf2",
-      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
-    }
-  ],
-  "Endpoints": [
-    {
-      "Route": "app.13i2qwpw2a.css",
-      "AssetFile": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\app.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2680"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"881EQc1i1I+uNQyIhz3pf5cfMcO/usFQLNn3kItW7/k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 23:12:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "13i2qwpw2a"
-        },
-        {
-          "Name": "label",
-          "Value": "app.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-881EQc1i1I+uNQyIhz3pf5cfMcO/usFQLNn3kItW7/k="
-        }
-      ]
-    },
-    {
-      "Route": "app.css",
-      "AssetFile": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\app.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2680"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"881EQc1i1I+uNQyIhz3pf5cfMcO/usFQLNn3kItW7/k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 23:12:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-881EQc1i1I+uNQyIhz3pf5cfMcO/usFQLNn3kItW7/k="
-        }
-      ]
-    },
-    {
-      "Route": "BlazorApp1.8fcq6ov3nz.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp1.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6005"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nGjTs4d+IbGKU8157TJdTxdbCYQg+m2K/JhloThq7GI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 14:21:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8fcq6ov3nz"
-        },
-        {
-          "Name": "label",
-          "Value": "BlazorApp1.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-nGjTs4d+IbGKU8157TJdTxdbCYQg+m2K/JhloThq7GI="
-        }
-      ]
-    },
-    {
-      "Route": "BlazorApp1.8fcq6ov3nz.styles.css",
-      "AssetFile": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorApp1.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6005"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nGjTs4d+IbGKU8157TJdTxdbCYQg+m2K/JhloThq7GI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 14:21:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8fcq6ov3nz"
-        },
-        {
-          "Name": "label",
-          "Value": "BlazorApp1.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-nGjTs4d+IbGKU8157TJdTxdbCYQg+m2K/JhloThq7GI="
-        }
-      ]
-    },
-    {
-      "Route": "BlazorApp1.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp1.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6005"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nGjTs4d+IbGKU8157TJdTxdbCYQg+m2K/JhloThq7GI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 14:21:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-nGjTs4d+IbGKU8157TJdTxdbCYQg+m2K/JhloThq7GI="
-        }
-      ]
-    },
-    {
-      "Route": "BlazorApp1.styles.css",
-      "AssetFile": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorApp1.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6005"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nGjTs4d+IbGKU8157TJdTxdbCYQg+m2K/JhloThq7GI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 14:21:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-nGjTs4d+IbGKU8157TJdTxdbCYQg+m2K/JhloThq7GI="
-        }
-      ]
-    },
-    {
-      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\bootstrap\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 22:48:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bpk8xqwxhs"
-        },
-        {
-          "Name": "label",
-          "Value": "bootstrap/bootstrap.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
-        }
-      ]
-    },
-    {
-      "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\bootstrap\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 22:48:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
-        }
-      ]
-    },
-    {
-      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "449111"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 22:48:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8inm30yfxf"
-        },
-        {
-          "Name": "label",
-          "Value": "bootstrap/bootstrap.min.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
-        }
-      ]
-    },
-    {
-      "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "449111"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 22:48:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\favicon.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1148"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 22:48:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ifv42okdf2"
-        },
-        {
-          "Name": "label",
-          "Value": "favicon.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.png",
-      "AssetFile": "C:\\Users\\Guillermo\\Documents\\Gracosoft\\Pruebas2025\\Blazor2025\\BlazorApp1\\BlazorApp1\\wwwroot\\favicon.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1148"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 22:48:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
-        }
-      ]
     }
   ]
 }

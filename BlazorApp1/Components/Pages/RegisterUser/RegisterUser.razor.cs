@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Components;
 
 
 
-namespace BlazorApp1.Components.RegisterUser
+namespace BlazorApp1.Components.Pages.RegisterUser
 {
     public partial class RegisterUser
     {
