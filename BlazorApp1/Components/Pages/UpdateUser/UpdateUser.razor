@@ -17,12 +17,17 @@
                     <ValidationMessage For="() => user.UserName" class="alert alert-danger" />
                 </label>
                 <label>
-                    <span>Password</span>
+                    <span>Old Password</span>
                     <InputText class="form-control" @bind-Value="user.Password" />
                     <ValidationMessage For="() => user.Password" class="alert alert-danger" />
                 </label>
+                <label>
+                    <span>New Password</span>
+                    <InputText class="form-control" @bind-Value="user.NewPassword" />
+                    <ValidationMessage For="() => user.Password" class="alert alert-danger" />
+                </label>
             </div>
-            <ValidationSummary></ValidationSummary>
+            @* <ValidationSummary></ValidationSummary> *@
 
         </EditForm> 
 
