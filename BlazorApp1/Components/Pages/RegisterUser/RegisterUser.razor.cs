@@ -32,5 +32,11 @@ namespace BlazorApp1.Components.RegisterUser
 
         }
 
+        public void Clear()
+        {
+            user.Password = "";
+            user.UserName = "";
+        }
+
     }
 }
