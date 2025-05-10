@@ -47,3 +47,13 @@ C:\Users\Guillermo\Documents\Gracosoft\Pruebas2025\Blazor2025\BlazorApp1\BlazorA
 C:\Users\Guillermo\Documents\Gracosoft\Pruebas2025\Blazor2025\BlazorApp1\BlazorApp1\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\Guillermo\Documents\Gracosoft\Pruebas2025\Blazor2025\BlazorApp1\BlazorApp1\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Guillermo\Documents\Gracosoft\Pruebas2025\Blazor2025\BlazorApp1\BlazorApp1\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Documents\Desktop\GracoNetCore2025Blazor\BlazorApp1\obj\Debug\net8.0\BlazorApp1.csproj.AssemblyReference.cache
+D:\Documents\Desktop\GracoNetCore2025Blazor\BlazorApp1\obj\Debug\net8.0\BlazorApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Desktop\GracoNetCore2025Blazor\BlazorApp1\obj\Debug\net8.0\BlazorApp1.AssemblyInfoInputs.cache
+D:\Documents\Desktop\GracoNetCore2025Blazor\BlazorApp1\obj\Debug\net8.0\BlazorApp1.AssemblyInfo.cs
+D:\Documents\Desktop\GracoNetCore2025Blazor\BlazorApp1\obj\Debug\net8.0\BlazorApp1.csproj.CoreCompileInputs.cache
+D:\Documents\Desktop\GracoNetCore2025Blazor\BlazorApp1\obj\Debug\net8.0\BlazorApp1.MvcApplicationPartsAssemblyInfo.cache
+D:\Documents\Desktop\GracoNetCore2025Blazor\BlazorApp1\obj\Debug\net8.0\BlazorApp1.sourcelink.json
+D:\Documents\Desktop\GracoNetCore2025Blazor\BlazorApp1\obj\Debug\net8.0\BlazorApp1.dll
+D:\Documents\Desktop\GracoNetCore2025Blazor\BlazorApp1\obj\Debug\net8.0\refint\BlazorApp1.dll
+D:\Documents\Desktop\GracoNetCore2025Blazor\BlazorApp1\obj\Debug\net8.0\BlazorApp1.pdb

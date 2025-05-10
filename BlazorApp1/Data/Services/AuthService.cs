@@ -1,4 +1,5 @@
-﻿using Core.Entities;
+﻿using BlazorApp1.Data.Models;
+using Core.Entities;
 using Data.Models;
 namespace BlazorApp1.Data.Services
 {
@@ -26,5 +27,50 @@ namespace BlazorApp1.Data.Services
             }
             return response;
         }
+
+        public async Task<Response<User>> Register(UserDTO user)
+        {
+            Response<User> response = new Response<User>();
+
+            try
+            {
+                response = await
+                    Consumer
+                    .Execute<User, UserDTO>(
+                        url,
+                        methodHttp.POST,
+                        user
+                    );
+            }
+            catch (Exception ex)
+            {
+                
+            }
+            return response;
+        }
+
+        public async Task<Response<User>> UpdateUser(UserDTO updatedUser)
+        {
+             Response<User> response = new Response<User>();
+
+            try
+            {
+                response = (await
+                    Consumer
+                    .Execute<User, UserDTO>(
+                        url,
+                        methodHttp.PUT,
+                        updatedUser)
+                    );
+
+                return response;
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return response;
+        }
+        
     }
 }

@@ -26,7 +26,7 @@ builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStat
 
 var app = builder.Build();
 
-// Configuración de la aplicación
+// Configuraciï¿½n de la aplicaciï¿½n
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
