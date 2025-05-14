@@ -2,6 +2,7 @@
 @using Core.Entities
 @rendermode InteractiveServer
 @attribute [StreamRendering]
+@using Microsoft.AspNetCore.Components.Authorization
 
 
 
@@ -21,7 +22,7 @@
             <ValidationMessage For="() => user.Password" class="alert alert-danger" />
         </label>
     </div>
-    <ValidationSummary></ValidationSummary>
+    @* <ValidationSummary></ValidationSummary> *@
 
 </EditForm> 
 

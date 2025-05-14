@@ -10,15 +10,23 @@ namespace BlazorApp1.Components.Pages.RegisterUser
     {
         public UserDTO user = new();
         [Inject]
-        public AuthService service { get; set; }
-
+        public AuthService? service { get; set; }
+    
         public string mensaje { get; set; } = string.Empty;
         public string claseMensaje { get; set; } = string.Empty;
 
+
         public async void Register()
         {
+            if(user.UserName.Length < 4 && user.Password.Length < 4)
+        {
+            //como deberia manejar esto?, ver la clase otra vez
+            mensaje = "Los Campos son Requeridos";
+            claseMensaje = "alert alert-danger";
+            return;
+        }
+
             var response = await service.Register(user);
-            Console.WriteLine("Entro");
 
             if(response.Ok)
             {

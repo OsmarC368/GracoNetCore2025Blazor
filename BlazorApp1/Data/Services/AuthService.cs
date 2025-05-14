@@ -6,7 +6,7 @@ namespace BlazorApp1.Data.Services
     public class AuthService
     {
         const string url = "User";
-        public async Task<Response<string>> Login(User usuario)
+        public async Task<Response<string>> Login(UserDTO usuario)
         {
             Response<string> response = new Response<string>();
 
@@ -14,7 +14,7 @@ namespace BlazorApp1.Data.Services
             {
                 response = await
                     Consumer
-                    .Execute<string, User>(
+                    .Execute<string, UserDTO>(
                         $"{url}/Login",
                         methodHttp.POST,
                         usuario)
@@ -49,7 +49,7 @@ namespace BlazorApp1.Data.Services
             return response;
         }
 
-        public async Task<Response<User>> UpdateUser(UserDTO updatedUser)
+        public async Task<Response<User>> UpdateUser(UserDTO updatedUser, string token)
         {
              Response<User> response = new Response<User>();
 
@@ -60,7 +60,8 @@ namespace BlazorApp1.Data.Services
                     .Execute<User, UserDTO>(
                         url,
                         methodHttp.PUT,
-                        updatedUser)
+                        updatedUser,
+                        token)
                     );
 
                 return response;

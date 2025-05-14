@@ -65,6 +65,10 @@ namespace BlazorApp1.Data
                     }; 
                     //request.Content = byteContent;
 
+                    //Mandar Token
+                if(token != null)
+                    client.DefaultRequestHeaders.Authorization =  new AuthenticationHeaderValue("Bearer", token);
+
                     using(HttpResponseMessage responseApi = await client.SendAsync(request))
                     {
                         using(HttpContent content = responseApi.Content)
@@ -82,6 +86,8 @@ namespace BlazorApp1.Data
                                 catch (Exception ex)
                                 {
                                     response.Ok = response.StatusCode != "400";
+                                    if(response.StatusCode == "InternalServerError" || response.StatusCode == "BadRequest")
+                                        response.Ok = false;
                                     response.Message = dataResponse;
                                 }
                             }

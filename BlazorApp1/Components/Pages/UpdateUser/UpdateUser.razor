@@ -2,47 +2,43 @@
 @using Core.Entities
 @rendermode InteractiveServer
 @attribute [StreamRendering]
+@using Microsoft.AspNetCore.Components.Authorization
 
+<CascadingAuthenticationState>
 
-<AuthorizedView>
-    <Authorize>
-        <h3>Actualizar Usuario</h3>
+    <AuthorizeView>
+        <Authorized>
+            <h3>Actualizar Usuario</h3>
 
-        <EditForm Model="@user"> 
-            <DataAnnotationsValidator/>
-            <div class="form-group d-flex flex-column">
-                <label>
-                    <span>Username</span>
-                    <InputText class="form-control" @bind-Value="user.UserName" />
-                    <ValidationMessage For="() => user.UserName" class="alert alert-danger" />
-                </label>
-                <label>
-                    <span>Old Password</span>
-                    <InputText class="form-control" @bind-Value="user.Password" />
-                    <ValidationMessage For="() => user.Password" class="alert alert-danger" />
-                </label>
-                <label>
-                    <span>New Password</span>
-                    <InputText class="form-control" @bind-Value="user.NewPassword" />
-                    <ValidationMessage For="() => user.Password" class="alert alert-danger" />
-                </label>
+            <EditForm Model="@user" Context="context2"> 
+                <DataAnnotationsValidator/>
+                <div class="form-group d-flex flex-column">
+                    <label>
+                        <span>Username</span>
+                        <InputText class="form-control" @bind-Value="user.UserName" />
+                        <ValidationMessage For="() => user.UserName" class="alert alert-danger" />
+                    </label>
+                    <label>
+                        <span>Old Password</span>
+                        <InputText class="form-control" @bind-Value="user.Password" />
+                        <ValidationMessage For="() => user.Password" class="alert alert-danger" />
+                    </label>
+                </div>
+
+            </EditForm> 
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button class="btn btn-secondary" @onclick=Update >Actualizar</button>
+                <button class="btn btn-secondary" @onclick=Clear >Limpiar</button>
+                <button class="btn btn-secondary" @onclick=Logout >Cerrar Sesion</button>
             </div>
-            @* <ValidationSummary></ValidationSummary> *@
 
-        </EditForm> 
-
-        <div class="btn-group" role="group" aria-label="Basic example">
-            <button class="btn btn-secondary" @onclick=Update >Actualizar</button>
-            <button class="btn btn-secondary" @onclick=Clear >Limpiar</button>
-        </div>
-
-        <div class="@claseMensaje" role="alert">
-            <h4>@mensaje</h4>
-        </div>
-    </Authorize>
-    <NotAuthorized>
-        No Esta Autorizado!
-    </NotAuthorized>
-</AuthorizedView>
-
-
+            <div class="@claseMensaje" role="alert">
+                <h4>@mensaje</h4>
+            </div>
+        </Authorized>
+        <NotAuthorized>
+            <p>No esta autorizado</p>
+        </NotAuthorized>
+    </AuthorizeView>
+</CascadingAuthenticationState>
